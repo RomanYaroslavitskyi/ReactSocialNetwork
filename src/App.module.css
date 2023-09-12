@@ -1,0 +1,19 @@
+ul li {
+  list-style: none;
+}
+.wrapper_container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "h h h"
+    "n c c"
+    "n c c";
+  /* grid-gap: 10px; */
+  justify-items: stretch;
+}
+
+.content {
+  padding-left: 10px;
+  grid-area: c;
+}

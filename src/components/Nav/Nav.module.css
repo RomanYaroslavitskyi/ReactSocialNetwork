@@ -1,0 +1,12 @@
+ul li {
+  list-style: none;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+.nav {
+  grid-area: n;
+  background: linear-gradient(70deg, blue, rgb(192, 227, 255));
+  width: auto;
+}
