@@ -8,7 +8,7 @@ const DialogItem = (props) => {
   color: "gold"
   };
   let activeClassName = "underline";
-    let path = "dialog/*" + props.id;
+    let path = "dialogs/*" + props.id;
     let aClass =  ({ isActive }) => isActive ? activeStyle : undefined ;
     
 return <div className={s.dialog}>

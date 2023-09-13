@@ -17,9 +17,9 @@ const Nav = () => {
             }>Profile</NavLink>
           </li>
          <li className={s.item}>
-        <NavLink to="message"
+        <NavLink to="dialogs"
           style={({ isActive }) =>
-            isActive ? activeStyle : undefined}>Messages</NavLink>
+            isActive ? activeStyle : undefined}>Dialogs</NavLink>
           </li>
           <li className={s.item}>
             <NavLink to="music"
