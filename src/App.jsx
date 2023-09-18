@@ -20,7 +20,7 @@ const App = (props) => {
       <div className={s.content}>
         <Routes>  
           <Route path="profile"
-            element={<Profile profilePage ={props.state.profilePage} 
+            element={<Profile ile profilePage ={props.state.profilePage} 
             addPost={props.addPost}
               updateNewPostText={props.updateNewPostText} />}
           />
