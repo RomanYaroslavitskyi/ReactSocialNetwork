@@ -12,6 +12,7 @@ import { addPost } from "./components/redux/state";
 
 
 const App = (props) => {
+console.dir(props)
   return (
     <div className={s.wrapper_container }>
       <Header className={s.header} />
@@ -20,9 +21,8 @@ const App = (props) => {
       <div className={s.content}>
         <Routes>  
           <Route path="profile"
-            element={<Profile ile profilePage ={props.state.profilePage} 
-            addPost={props.addPost}
-              updateNewPostText={props.updateNewPostText} />}
+            element={<Profile  profilePage ={props.state.profilePage} 
+            dispatch={props.dispatch} />}
           />
           <Route path="dialogs"
             element={<Dialogs state={props.state.dialogsPage} />} />
